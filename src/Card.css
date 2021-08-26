@@ -1,0 +1,39 @@
+.Card{
+    border: 2px solid lightseagreen;
+    text-align: center;
+    min-height: 300px;
+    width: 300px;
+    margin: 1rem;
+    box-shadow: 7px 10px 12px -8px black;
+    border-radius: 10%;
+}
+.Card-name{
+font-size: 1.5rem;
+font-weight: 900;
+}
+.Card-p{
+    margin-top: 5px;
+font-size: 1.5rem;
+font-weight: 600;
+color: darkgoldenrod;    
+}
+
+.Card-exp{
+font-size: 1.2rem;
+   color:seagreen;
+   font-weight: 700; 
+}
+.Card-img{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 250px;
+background-color: lightgray;
+border-radius: 5%;
+margin-bottom: 0.5rem;
+}
+.Card img:hover{
+    transform: scale(1.25);
+    transition:all ease 500ms ;
+    opacity: 0.7;
+    }

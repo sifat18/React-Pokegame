@@ -1,0 +1,11 @@
+.Pokedex-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Pokedex-Win{
+    color: darkolivegreen;
+}
+.Pokedex-loose{
+    color: darkred;
+}
